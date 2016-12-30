@@ -24,6 +24,7 @@ defmodule MechanicalTurkdown.Mixfile do
   defp deps do
     [
       {:erlcloud, "~> 2.2.1"},
+      {:gen_state_machine, "~> 2.0.0"},
 
       # Dev + Test dependencies
       {:credo, "~> 0.5", only: [:dev, :test]},

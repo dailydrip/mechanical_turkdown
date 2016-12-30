@@ -37,13 +37,11 @@ defmodule MechanicalTurkdown.MechanicalTurk do
   end
 
   @doc """
-  Approve the first assignment for the given HIT.
+  Approve the assignment with the given assignment_id
   """
-  @spec get_assignments(charlist()) :: :ok
-  def approve(hit_id) do
-    assignments = get_assignments(hit_id)
-    assignment = hd(assignments[:assignments])
-    assignment[:assignment_id]
+  @spec approve(charlist()) :: :ok
+  def approve(assignment_id) do
+    assignment_id
       |> :erlcloud_mturk.approve_assignment('', mturk_config())
   end
 
