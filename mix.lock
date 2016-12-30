@@ -1,4 +1,6 @@
 %{"base16": {:hex, :base16, "1.0.0", "283644e2b21bd5915acb7178bed7851fb07c6e5749b8fad68a53c501092176d9", [:rebar3], []},
+  "bunt": {:hex, :bunt, "0.1.6", "5d95a6882f73f3b9969fdfd1953798046664e6f77ec4e486e6fafc7caad97c6f", [:mix], []},
+  "credo": {:hex, :credo, "0.5.3", "0c405b36e7651245a8ed63c09e2d52c2e2b89b6d02b1570c4d611e0fcbecf4a2", [:mix], [{:bunt, "~> 0.1.6", [hex: :bunt, optional: false]}]},
   "eini": {:hex, :eini, "1.2.4", "abd64a0533398a6d714d21219bb85f2d41fdb42665ac4080939b7bfa8e55f386", [:rebar3], []},
   "erlcloud": {:hex, :erlcloud, "2.2.1", "536e12e30a573375f8dbdccca27b3c71f24b96d9b9ce5f42635d324351f7d94b", [:rebar3], [{:base16, "1.0.0", [hex: :base16, optional: false]}, {:eini, "1.2.4", [hex: :eini, optional: false]}, {:jsx, "2.8.0", [hex: :jsx, optional: false]}, {:lhttpc, "1.5.0", [hex: :lhttpc, optional: false]}]},
   "jsx": {:hex, :jsx, "2.8.0", "749bec6d205c694ae1786d62cea6cc45a390437e24835fd16d12d74f07097727", [:mix, :rebar], []},
